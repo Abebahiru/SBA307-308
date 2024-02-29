@@ -148,14 +148,51 @@ nav ul li a:hover {
 
 
 /* Main content styles */
+
 main {
   padding: 20px;
   background: #f5f5f5;
-  margin-top: 20px;
 }
+
+.hero {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.content-container .content {
+  flex: 1;
+  padding-right: 10px; /* Add spacing between the articles */
+}
+.our-mission {
+  max-width: 800px; /* or whatever maximum width fits your design */
+  margin: 0 auto; /* centers the section in the middle of the page */
+  padding: 20px; /* adds some spacing inside the section */
+  text-align: justify; /* optional: justifies the text for better readability */
+}
+
 
 h1, h2, h3 {
   margin-bottom: 20px;
+}
+table {
+  width: 100%; /* Full-width tables look nice on the page */
+  border-collapse: collapse; /* Collapses the border to a single line */
+}
+
+th, td {
+  border: 1px solid #333; /* Solid border for table cells */
+  padding: 8px; /* Some padding inside cells */
+  text-align: left; /* Align text to the left in cells */
+}
+
+thead {
+  background-color: #f2f2f2; /* A light grey background for header row */
 }
 
 /* Form styles */
@@ -305,9 +342,9 @@ footer {
 }
 
 @media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */
 }
 
@@ -377,4 +414,3 @@ footer {
     page-break-after: avoid;
   }
 }
-
