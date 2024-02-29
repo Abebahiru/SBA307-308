@@ -1,6 +1,5 @@
 # SBA307-308
 # FULL STACK JAVA TRAVEL BLOG
-# Project Readme
 
 ## Technical Requirements
 
